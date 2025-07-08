@@ -1,0 +1,13 @@
+{
+  "title": "App Settings",
+  "client_id": "Client ID",
+  "client_secret": "Client Secret",
+  "environment": "Environment",
+  "seller_name": "Seller Name",
+  "seller_tin": "Seller TIN",
+  "income_source": "Income Source",
+  "username": "Username",
+  "password": "Password",
+  "language": "Language",
+  "save": "Save Settings"
+}

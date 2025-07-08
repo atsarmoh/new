@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+  <div class="settings-container">
+
+    <form id="settingsForm" class="settings-form">
+      <div class="settings-group">
+        <label>Client ID</label>
+        <input type="text" name="client_id" required />
+      </div>
+      <div class="settings-group">
+        <label>Client Secret</label>
+        <input type="text" name="client_secret" required />
+      </div>
+      <div class="settings-group">
+        <label>بيئة العمل</label>
+        <select name="environment">
+          <option value="staging">تجريبية (Staging)</option>
+          <option value="production">إنتاجية (Production)</option>
+        </select>
+      </div>
+      <div class="settings-group">
+        <label>اسم البائع</label>
+        <input type="text" name="seller_name" required />
+      </div>
+      <div class="settings-group">
+        <label>الرقم الضريبي للبائع</label>
+        <input type="text" name="seller_tin" required />
+      </div>
+      <div class="settings-group">
+        <label>مصدر الدخل</label>
+        <input type="text" name="income_source" required />
+      </div>
+      <div class="settings-group">
+        <label>اسم المستخدم</label>
+        <input type="text" name="username" required />
+      </div>
+      <div class="settings-group">
+        <label>كلمة المرور</label>
+        <input type="password" name="password" required />
+      </div>
+      <div class="settings-group">
+        <label>اللغة</label>
+        <select name="language" id="langSelect">
+          <option value="ar">العربية</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+      <button type="submit">💾 حفظ الإعدادات</button>
+      <div id="settingsMsg" class="settings-msg"></div>
+    </form>
+  </div>
+  <script src="settings.js"></script>
+</body>
+</html>

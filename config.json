@@ -1,0 +1,13 @@
+{
+    "client_id": "31423a4c-2a0a-4c5a-9e52-cefba4ad7747",
+    "client_secret": "Gj5nS9wyYHRadaVffz5VKB4v4wlVWyPhcJvrTD4NHtPxAQHWuu028\/jqijOWcWMPMaZTJENABXYw6+3nKg2jNVoAoyyFoBk1gIEoe\/11xo9Ab2WNRqG0TNbF3mRzxl6ocHo18c0bIOKuwmioA+R6anLkAEMcEIGpC8xXUcyDLboFoTzsir9\/GL7HByKLjz9UgVAaCzB7qQpDmQRlRP4JWbZqqwprKXKHQWSLr3m\/jI64KS\/WOu8h2hskxiBNP3WsvtDgzZ2atCsmE\/2s8QMDVQ==",
+    "environment": "staging",
+    "seller_name": "مكتبة التقوى",
+    "seller_tin": "123123",
+    "income_source": "45555555",
+    "language": "ar",
+    "user": {
+        "username": "root",
+        "password_hash": "MTIzNDEyMzQ="
+    }
+}

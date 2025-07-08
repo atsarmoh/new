@@ -1,0 +1,13 @@
+{
+  "title": "إعدادات التطبيق",
+  "client_id": "معرف العميل",
+  "client_secret": "الرمز السري",
+  "environment": "بيئة العمل",
+  "seller_name": "اسم البائع",
+  "seller_tin": "الرقم الضريبي للبائع",
+  "income_source": "مصدر الدخل",
+  "username": "اسم المستخدم",
+  "password": "كلمة المرور",
+  "language": "اللغة",
+  "save": "حفظ الإعدادات"
+}

@@ -1,0 +1,51 @@
+{
+    "name": "jafar-albadarneh/jofotara",
+    "description": "PHP SDK to integrate with the Jordanian E-Invoice Portal (Jofotara)",
+    "keywords": [
+        "jafar-albadarneh",
+        "jofotara"
+    ],
+    "homepage": "https://github.com/jafar-albadarneh/jofotara",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jafar-albadarneh",
+            "email": "jafar.albadarneh@gmail.com",
+            "role": "Software Engineer"
+        }
+    ],
+    "require": {
+        "php": "^8.0 || ^8.1 || ^8.2 || ^8.3 || ^8.4",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.0",
+        "laravel/pint": "^1.0",
+        "ext-dom": "*",
+        "ext-libxml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JBadarneh\\JoFotara\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JBadarneh\\JoFotara\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+            "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,78 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b3d5feb31ce5ac8919e0bb247d850a7d",
+    "packages": [
+        {
+            "name": "jafar-albadarneh/jofotara",
+            "version": "0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jafar-albadarneh/jofotara.git",
+                "reference": "cf44a22248da65a02133a0cf454d64bdb0a36e8a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jafar-albadarneh/jofotara/zipball/cf44a22248da65a02133a0cf454d64bdb0a36e8a",
+                "reference": "cf44a22248da65a02133a0cf454d64bdb0a36e8a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": "^8.0 || ^8.1 || ^8.2 || ^8.3 || ^8.4"
+            },
+            "require-dev": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "laravel/pint": "^1.0",
+                "pestphp/pest": "^3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JBadarneh\\JoFotara\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "jafar-albadarneh",
+                    "email": "jafar.albadarneh@gmail.com",
+                    "role": "Software Engineer"
+                }
+            ],
+            "description": "PHP SDK to integrate with the Jordanian E-Invoice Portal (Jofotara)",
+            "homepage": "https://github.com/jafar-albadarneh/jofotara",
+            "keywords": [
+                "jafar-albadarneh",
+                "jofotara"
+            ],
+            "support": {
+                "issues": "https://github.com/jafar-albadarneh/jofotara/issues",
+                "source": "https://github.com/jafar-albadarneh/jofotara/tree/0.9"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/jafar-albadarneh",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-06-15T21:53:48+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
